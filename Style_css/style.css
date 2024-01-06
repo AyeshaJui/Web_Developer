@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../images/The\ Cow.jpg');
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 51% 100%, 48% 100%, 0% 60%, 1% 1%);
+}
+.hero h1{
+    color: rgb(244, 244, 244);
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    padding-top: 60px;
+    letter-spacing: 20px;
+}
+
+.about ,#cow-type{
+    width: 80%;
+    margin: 60px auto;
+    /* border-width: 15px;
+    border-color: blue;
+    border-style: solid; */
+    /* background-color: aquamarine; */
+    padding: 60px;
+    background: linear-gradient(pink, rgb(102, 102, 239));
+}
+.about h2, #cow-type h2{
+    text-align: center;
+    font-size: 40px;
+    border-width: 15px;
+    border-bottom: 2px;
+    border-color: blue;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.cow-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cow-img div{
+    min-width: 300px;
+}
+.cow-img img{
+   width: 100%;
+}
