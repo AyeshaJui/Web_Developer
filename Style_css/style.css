@@ -56,7 +56,7 @@
     flex-direction: row;
     gap: 20px;
 }
-.cow-img div{
+.cow-img{
     min-width: 300px;
 }
 .cow-img img{
